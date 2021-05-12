@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Example5DPAdapter
 {
-    public class TriceratopsEgg
+    public interface IHijo
     {
-        public IChild Hatch()
-        {
-            return new TriceratopsChild();
-        }
+        string Llorar();
     }
 }

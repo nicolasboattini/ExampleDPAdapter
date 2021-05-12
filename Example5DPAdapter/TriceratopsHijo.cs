@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Example5DPAdapter
 {
-    internal class TriceratopsChild : IChild
+    internal class TriceratopsHijo : IHijo
     {
-        public string Cry()
+        public string Llorar()
         {
-            return "TRICERATOPS IS CRYING";
+            return "TRICERATOPS ESTA LLORANDO";
         }
     }
 }

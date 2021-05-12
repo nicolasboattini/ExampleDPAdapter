@@ -6,7 +6,7 @@ namespace Example4DPAdapter
     {
         public string GetSpecificRequest()
         {
-            return "Specific request.";
+            return "Solicitud Específica.";
         }
     }
 }

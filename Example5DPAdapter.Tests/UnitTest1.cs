@@ -6,11 +6,12 @@ namespace Example5DPAdapter.Tests
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void Triceratops_Da_Hijo_Como_Mamifero_Y_Llora()
         {
             var triceratops = new Triceratops();
-            var child = ChildCreator.CreateChild(new TriceratopsToMammalAdapter(triceratops));
-            Assert.AreEqual("TRICERATOPS IS CRYING", child.Cry());
+            var triceratops_adaptado = new TriceratopsAMamiferoAdapter(triceratops);
+            var hijo = CreadorDeHijo.CreateChild(triceratops_adaptado);
+            Assert.AreEqual("TRICERATOPS ESTA LLORANDO", hijo.Llorar());
             
         }
     }

@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 
 namespace Example5DPAdapter
 {
-    public interface IMammal
+    public interface IMamifero
     {
-        IChild GiveBirth();
+        IHijo DarNacimiento();
     }
 }

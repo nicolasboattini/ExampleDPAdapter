@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Example5DPAdapter
 {
-    public static class ChildCreator
+    public static class CreadorDeHijo
     {
-        public static IChild CreateChild(IMammal mammal)
+        public static IHijo CreateChild(IMamifero mamífero)
         {
-            return mammal.GiveBirth();
+            return mamífero.DarNacimiento();
         }
     }
 }

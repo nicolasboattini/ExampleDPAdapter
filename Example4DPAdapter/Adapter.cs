@@ -13,7 +13,7 @@ namespace Example4DPAdapter
 
         public string GetRequest()
         {
-            return $"This is '{this._adaptee.GetSpecificRequest()}'";
+            return $"Este es '{this._adaptee.GetSpecificRequest()}'";
         }
     }
 }

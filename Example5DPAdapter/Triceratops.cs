@@ -8,9 +8,9 @@ namespace Example5DPAdapter
 {
     public class Triceratops
     {
-        public TriceratopsEgg LayEgg()
+        public HuevoTriceratops DejarHuevo()
         {
-            return new TriceratopsEgg();
+            return new HuevoTriceratops();
         }
     }
 }

@@ -6,22 +6,22 @@ using System.Threading.Tasks;
 
 namespace Example5DPAdapter
 {
-    public class TriceratopsToMammalAdapter : IMammal
+    public class TriceratopsAMamiferoAdapter : IMamifero
     {
         private readonly Triceratops triceratops;
 
-        public TriceratopsToMammalAdapter(Triceratops triceratops)
+        public TriceratopsAMamiferoAdapter(Triceratops triceratops)
         {
             this.triceratops = triceratops;
         }
 
-        public IChild GiveBirth()
+        public IHijo DarNacimiento()
         {
-            TriceratopsEgg egg = triceratops.LayEgg();
+            HuevoTriceratops huevo = triceratops.DejarHuevo();
 
-            IChild child = egg.Hatch();
+            IHijo hijo = huevo.Incubar();
 
-            return child;
+            return hijo;
         }
     }
 }
