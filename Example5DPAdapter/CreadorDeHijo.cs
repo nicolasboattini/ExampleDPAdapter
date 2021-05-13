@@ -8,7 +8,7 @@ namespace Example5DPAdapter
 {
     public static class CreadorDeHijo
     {
-        public static IHijo CreateChild(IMamifero mamífero)
+        public static IHijo CrearHijo(IMamifero mamífero)
         {
             return mamífero.DarNacimiento();
         }

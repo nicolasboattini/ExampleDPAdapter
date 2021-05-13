@@ -10,7 +10,7 @@ namespace Example5DPAdapter.Tests
         {
             var triceratops = new Triceratops();
             var triceratops_adaptado = new TriceratopsAMamiferoAdapter(triceratops);
-            var hijo = CreadorDeHijo.CreateChild(triceratops_adaptado);
+            var hijo = CreadorDeHijo.CrearHijo(triceratops_adaptado);
             Assert.AreEqual("TRICERATOPS ESTA LLORANDO", hijo.Llorar());
             
         }
